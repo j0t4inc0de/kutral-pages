@@ -1,6 +1,8 @@
+@import url('img.dafont.com/preview.php?text=Bienvenido+a+kutral&ttf=beauty_wind1&ext=1&size=45&psize=m&y=60');
+
 @font-face {
     font-family: 'Guide Notes';
-    src: url('style/font/Guide Notes.otf') format('truetype');
+    src: url(img.dafont.com/preview.php?text=Bienvenido+a+kutral&ttf=beauty_wind1&ext=1&size=45&psize=m&y=60) format('truetype');
 }
 
 .text-h3 {
