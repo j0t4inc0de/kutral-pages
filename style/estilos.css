@@ -1,13 +1,19 @@
-.text-h3{
-    font-family: 'Guide Notes', guide notes;
+@font-face {
+    font-family: 'Guide Notes';
+    src: url('style/font/Guide Notes.otf') format('truetype');
+}
+
+.text-h3 {
+    font-family: 'Guide Notes', sans-serif; /* Si la fuente personalizada no se carga, usa una fuente de respaldo */
     font-size: 60px;
     padding-top: 80px;
     margin-bottom: 10px;
-    /* text-decoration: underline; */
     color: white;
     text-shadow: 2px 2px 4px rgb(64, 102, 57);
     text-align: center;
 }
+
+
 .text-medium{
     text-align: center;
     color: white;
