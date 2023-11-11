@@ -1,13 +1,10 @@
-/* Importa la fuente usando @import */
 @import url('https://img.dafont.com/dl/?f=beauty_wind1');
 
-/* Define @font-face para la fuente personalizada */
 @font-face {
     font-family: 'Beauty Wind';
     src: url('https://img.dafont.com/dl/?f=beauty_wind1') format('truetype');
 }
 
-/* Utiliza la fuente en tu clase .text-h3 */
 .text-h3 {
     font-family: 'Beauty Wind', sans-serif; /* Si la fuente personalizada no se carga, usa una fuente de respaldo */
     font-size: 60px;
@@ -17,7 +14,6 @@
     text-shadow: 2px 2px 4px rgb(64, 102, 57);
     text-align: center;
 }
-
 
 .text-medium{
     text-align: center;
