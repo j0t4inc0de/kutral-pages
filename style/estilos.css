@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'Beauty Wind';
-    src: url('/style/font/Guide\ Notes.otf');
-}
-
 .text-h3 {
-    font-family: 'Beauty Wind', sans-serif; /* Si la fuente personalizada no se carga, usa una fuente de respaldo */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     padding-top: 80px;
     margin-bottom: 10px;
