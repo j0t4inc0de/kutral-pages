@@ -1,8 +1,6 @@
-@import url('https://img.dafont.com/dl/?f=beauty_wind1');
-
 @font-face {
     font-family: 'Beauty Wind';
-    src: url('https://img.dafont.com/dl/?f=beauty_wind1') format('truetype');
+    src: url('/style/font/Guide\ Notes.otf');
 }
 
 .text-h3 {
