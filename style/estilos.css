@@ -4,7 +4,7 @@
 }
 
 .text-h3 {
-    font-family: 'Guide Notes', sans-serif; /* Si la fuente personalizada no se carga, usa una fuente de respaldo */
+    font-family: 'Guide Notes', guide notes; /* Si la fuente personalizada no se carga, usa una fuente de respaldo */
     font-size: 60px;
     padding-top: 80px;
     margin-bottom: 10px;
