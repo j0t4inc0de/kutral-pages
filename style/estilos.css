@@ -9,10 +9,12 @@
 }
 
 .text-medium{
+    font-family: 'Zilla Slab', sans-serif;
     text-align: center;
     color: white;
 }
 .text-low{
+    font-family: 'Zilla Slab', sans-serif;
     text-align: center;
     color: white;
     text-decoration: underline;
