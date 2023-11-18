@@ -36,11 +36,3 @@
     text-decoration: underline;
     text-shadow: 2px 2px 4px rgb(64, 102, 57);
 }
-.card {
-    height: 100%;
-  }
-
-  .card img {
-    object-fit: cover;
-    height: 200px; /* Puedes ajustar la altura según tus necesidades */
-  }
