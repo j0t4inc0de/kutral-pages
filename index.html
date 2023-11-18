@@ -33,14 +33,14 @@
         color: rgb(0, 0, 0);
         text-align: center;
     }
-    .card {
-    height: 100%;
-  }
+        .card {
+        height: 100%;
+    }
+        .card img {
+        object-fit: cover;
+        height: 200px; /* Puedes ajustar la altura según tus necesidades */
+    }
 
-  .card img {
-    object-fit: cover;
-    height: 200px; /* Puedes ajustar la altura según tus necesidades */
-  }
     </style>
     <title>Kutral</title>
 </head>
@@ -233,7 +233,7 @@
     </div>
     <div id="sugerencias">
         <form style="display: flex; flex-direction: column; width: 50%; margin: 0 auto;">
-          <label class="text-sub-title">Escribe tu sugerencia via whatsapp!</label>
+          <label class="text-sub-title">Escribe tu sugerencia via whatsapp! <i class="fa-brands fa-whatsapp"></i></label>
           <input type="text" id="nombre" placeholder="Nombre" style="padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;" />
           <textarea id="mensaje" placeholder="Escribe tu sugerencia aquí" style="padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
           <button onclick="enviarWhatsApp()" class="btn btn-success">Enviar</button>
@@ -251,8 +251,44 @@
         window.open(url);
       }
       </script>
+    <div class="footer-clean">
+      <footer>
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-sm-4 col-md-3 item">
+                      <h3>Servicios</h3>
+                      <ul>
+                          <li><a href="#">Web design</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4 col-md-3 item">
+                      <h3>About</h3>
+                      <ul>
+                          <li><a href="#">Company</a></li>
+                          <li><a href="#">Team</a></li>
+                          <li><a href="#">Legacy</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4 col-md-3 item">
+                      <h3>Careers</h3>
+                      <ul>
+                          <li><a href="#">Job openings</a></li>
+                          <li><a href="#">Employee success</a></li>
+                          <li><a href="#">Benefits</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                      <p class="copyright">Company Name © 2018</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+  </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
