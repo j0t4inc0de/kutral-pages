@@ -228,21 +228,25 @@
             </div>
           </div>
     </section>
-    
+    <div class="text-center">
+        <h1 class="text-title">Sugerencias</h1>
+    </div>
     <div id="sugerencias">
         <form style="display: flex; flex-direction: column; width: 50%; margin: 0 auto;">
-          <label style="font-weight: bold; margin-bottom: 10px;">Escribe tu sugerencia via whatsapp!</label>
+          <label class="text-sub-title">Escribe tu sugerencia via whatsapp!</label>
           <input type="text" id="nombre" placeholder="Nombre" style="padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;" />
           <textarea id="mensaje" placeholder="Escribe tu sugerencia aquí" style="padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
-          <button onclick="enviarWhatsApp()" style="background-color: #a7a2a2a6; color: #fff; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">Enviar</button>
+          <button onclick="enviarWhatsApp()" class="btn btn-success">Enviar</button>
+          <br>
         </form>
+        <br>
     </div>
       <script>
       function enviarWhatsApp() {
         var nombre = encodeURIComponent(document.getElementById("nombre").value);
         var mensaje = encodeURIComponent(document.getElementById("mensaje").value);
         
-        var url = "https://wa.me/56948991554/?text=Hola,%20soy%20" + nombre + ".%20Mi%20sugerencia%20es%20" + mensaje;
+        var url = "https://wa.me/56942005938/?text=Hola,%20soy%20" + nombre + ".%20Mi%20sugerencia%20es%20" + mensaje;
         
         window.open(url);
       }
